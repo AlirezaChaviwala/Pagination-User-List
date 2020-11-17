@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Pagination</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        div#main {
+            width: 1200px;
+            margin: 0 auto;
+            border: 1px solid grey;
+            box-shadow: 2px 2px 5px grey, -2px -2px 5px grey, -2px 2px 5px grey, 2px -2px 5px grey;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        h1#maintitle {
+            font-size: 50px;
+            font-family: 'Montserrat', sans-serif;
+            border: 2px solid blue;
+            border-radius: 100px;
+            padding: 30px;
+        }
+        
+        section button {
+            background-color: white;
+            padding: 15px;
+            border-radius: 12px;
+            margin: 5px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+            border: 2px solid green;
+        }
+        
+        section button:hover {
+            background-color: green;
+            color: white;
+        }
+        
+        table {
+            margin: auto;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            margin: auto auto 20px;
+        }
+        
+        table td {
+            padding: 10px 20px;
+            width: 300px;
+        }
+        
+        table th {
+            padding: 10px;
+            border-radius: 100px;
+        }
+        
+        table th#mainid {
+            background-color: red;
+        }
+        
+        table th#mainname {
+            background-color: rgb(145, 255, 0);
+        }
+        
+        table th#mainemail {
+            background-color: rgb(0, 183, 255);
+        }
+    </style>
+</head>
+
+<body>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

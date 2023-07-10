@@ -1,0 +1,5 @@
+--Written in JS with HTML DOM manipulation
+--Integrated API from githubuserlist to pull user data
+
+--Hosted Netlify link
+https://pagination-user-list-app.netlify.app/
